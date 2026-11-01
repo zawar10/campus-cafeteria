@@ -3,3 +3,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+/* =================================
+   CAMPUS BITES - DESIGN SYSTEM
+================================= */
+
+/* 1. Common Colors */
+
+:root {
+    --primary-green: #176B45;
+    --dark-green: #105437;
+    --secondary-green: #2D8A5D;
+
+    --accent-yellow: #F4B942;
+
+    --background-color: #FFFDF7;
+    --surface-color: #FFFFFF;
+
+    --text-color: #26332C;
+    --text-light: #68756D;
+
+    --border-color: #E5EAE5;
+}
