@@ -721,3 +721,101 @@ textarea {
         height: 140px;
     }
 }
+
+/* =================================
+   ORDER PAGE STYLES
+================================= */
+
+.order-guidelines {
+    margin-top: 55px;
+}
+
+.guideline-list {
+    list-style: disc;
+    padding-left: 22px;
+}
+
+.guideline-list li {
+    margin-bottom: 12px;
+    color: var(--text-light);
+}
+
+
+/* =================================
+   FEEDBACK PAGE STYLES
+================================= */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.contact-grid h2 {
+    color: var(--primary-green);
+    margin-bottom: 20px;
+}
+
+.contact-grid a {
+    color: var(--primary-green);
+}
+
+.contact-grid a:hover {
+    text-decoration: underline;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form label {
+    font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.feedback-form textarea {
+    resize: vertical;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    outline: 2px solid var(--secondary-green);
+    border-color: var(--primary-green);
+}
+
+.form-notice {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #F4F8F3;
+    border-radius: 8px;
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+
+/* =================================
+   PAGE-SPECIFIC RESPONSIVENESS
+================================= */
+
+@media (max-width: 600px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .order-guidelines {
+        margin-top: 35px;
+    }
+
+}
