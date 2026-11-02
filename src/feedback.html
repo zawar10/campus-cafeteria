@@ -1,14 +1,170 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus Bites</title>
+    <title>Contact & Feedback | Campus Bites</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
 
-    <h1>Campus Bites</h1>
+    <!-- Shared Navigation -->
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <a href="index.html" class="logo">Campus <span>Bites</span></a>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="deals.html">Deals</a>
+                <a href="order.html">How to Order</a>
+                <a href="feedback.html" class="active">Feedback</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact & Feedback</h1>
+            <p>Have a question or suggestion? We'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <!-- Contact and Feedback Content -->
+    <main class="section">
+        <div class="container">
+
+            <div class="contact-grid">
+
+                <!-- Contact Information -->
+                <section class="card">
+                    <h2>Contact Information</h2>
+
+                    <p><strong>University:</strong></p>
+                    <p>University of Central Punjab</p>
+
+                    <br>
+
+                    <p><strong>Opening Hours:</strong></p>
+                    <p>Monday–Saturday, 8:00 AM–8:00 PM</p>
+
+                    <br>
+
+                    <p><strong>Email:</strong></p>
+                    <p>
+                        <a href="mailto:campusbites@example.com">
+                            campusbites@example.com
+                        </a>
+                    </p>
+
+                    <br>
+
+                    <p><strong>Phone:</strong></p>
+                    <p>
+                        <a href="tel:+923001234567">
+                            +92 300 1234567
+                        </a>
+                    </p>
+                </section>
+
+                <!-- Feedback Form -->
+                <section class="card">
+                    <h2>Send Us Your Feedback</h2>
+
+                    <form class="feedback-form">
+
+                        <p>
+                            <label for="name">Your Name</label>
+                        </p>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                        <br><br>
+
+                        <p>
+                            <label for="email">Your Email</label>
+                        </p>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                        <br><br>
+
+                        <p>
+                            <label for="message">Your Message</label>
+                        </p>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your feedback here..."
+                            required
+                        ></textarea>
+
+                        <br><br>
+
+                        <button type="button" class="btn btn-primary">
+                            Submit Feedback
+                        </button>
+
+                    </form>
+
+                    <p class="form-notice">
+                        <strong>Note:</strong> This form is a visual demonstration
+                        only. It does not submit or store any responses.
+                    </p>
+                </section>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <div>
+                    <h3>Campus Bites</h3>
+                    <p>Your campus cafeteria information site for the University of Central Punjab.</p>
+                </div>
+
+                <div>
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="deals.html">Deals</a>
+                        <a href="order.html">How to Order</a>
+                        <a href="feedback.html">Feedback</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Contact</h3>
+                    <p>University of Central Punjab</p>
+                    <p>Campus Cafeteria</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Campus Bites. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
